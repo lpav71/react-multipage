@@ -8,7 +8,6 @@ const About = () => {
         <>
             <div className={Style.header}>
                 <h2
-                    id={Style.hdr}
                     style={{color: show ? '#4d62c3' : '#078207'}}
                 >
                     {show ? "О Нас" : "О компании"}

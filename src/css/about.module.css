@@ -11,8 +11,8 @@
     margin: auto;
     box-shadow: 10px 8px 50px 8px #AEAEAEFF;
 }
-
-#hdr {
-    font-size: 43px;
+.header h2 {
+    font-size: 40px;
     font-weight: bold;
 }
+
