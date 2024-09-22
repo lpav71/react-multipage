@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './app.js',
+    entry: './app.jsx',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
@@ -63,5 +63,5 @@ module.exports = {
         maxAssetSize: 512000, // Увеличьте лимит для активов (в байтах)
         hints: "warning", // Укажите уровень предупреждений: "warning" или "error"
     },
-    mode: 'production', // Используй production для деплоя
+    mode: 'development', // Используй production для деплоя
 };
