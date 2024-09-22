@@ -12,10 +12,7 @@ const MasterPage = ({ data }) => {
     const renderComponent = () => {
 
         if (document.getElementById('home')) {
-            // Получаем значение атрибута data-value из элемента с ID home
-            const homeElement = document.getElementById('home');
-            const dataValue = homeElement ? homeElement.getAttribute('data-value') : null; // Извлечение значения
-            return <Home mystring={dataValue} />;
+            return <Home />;
         }
 
         if (document.getElementById('about')) {

@@ -8,9 +8,12 @@
 <body>
 
 <div id="app" class="container">
-    <div id="home" data-value = 'Это мой компонент HOME'></div>
+    <div id="home"></div>
 </div>
 
+<script>
+    window.userData = 'Это главная страница';
+</script>
 <script src="dist/bundle.js"></script>
 </body>
 </html>
